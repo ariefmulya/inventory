@@ -15,7 +15,7 @@ class Config {
   public function __construct()
   {
     /* project environment setup */
-    $this->projectTitle = 'Application Name';
+    $this->projectTitle = 'Inventory';
     $this->loginPage    = 'Login/index';
     $this->startPage    = 'Home/index';
     $this->noAccessPage = 'User/noAccess';
@@ -41,10 +41,10 @@ class Config {
        for multiple connection just add more index */
     $this->dbConfig[0] = array(
         self::DBTYPE => 'PostgreSQL',
-        self::DBHOST => 'localhost',
-        self::DBNAME => 'test',
-        self::DBUSER => 'test',
-        self::DBCRED => 'test',
+        self::DBHOST => '119.235.24.94',
+        self::DBNAME => 'InventoryApp',
+        self::DBUSER => 'dbdev',
+        self::DBCRED => '1',
       );
   }
 
